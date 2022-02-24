@@ -1,0 +1,53 @@
+* {
+    color: #393E46;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+body {
+    background-color: #222831;
+}
+
+button {
+    background-color: #393E46;
+    font-family: inherit;
+    color: #FFD369;
+    border-radius: 5px;
+    margin: 00.5rem;
+    border: none;
+    padding: 00.5rem;
+    font-size: 75%;
+}
+
+.card {
+    background-color: #EEEEEE;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: fit-content;
+    max-width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px #000;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    align-items: left;
+}
+
+.task-container {
+    overflow-wrap: break-word;
+}
+
+.task-input {
+    width: 100%;
+}
+
+#submit {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

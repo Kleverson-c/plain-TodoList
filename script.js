@@ -2,8 +2,7 @@ const form = document.getElementById("tasks");
 const input = document.getElementById("task-input");
 const list = document.getElementById("list");
 
-const existingData = JSON.parse(localStorage.getItem("tasks"));
-const todoData = existingData || [];
+const todoData = JSON.parse(localStorage.getItem("tasks")) || [];
 
 
 todoData.forEach(item => {

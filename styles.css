@@ -19,18 +19,24 @@ button {
     font-size: 75%;
 }
 
+li {
+    margin: 5px 0;
+}
+
+.container {
+    width: 100%;
+}
+
 .card {
     background-color: #EEEEEE;
     border-radius: 0.5rem;
     padding: 2rem;
     width: fit-content;
     max-width: 50%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 5px 5px #000;
+    position: relative;
+    box-shadow: 5px 5px 5px #000;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .flex {
@@ -46,8 +52,16 @@ button {
     width: 100%;
 }
 
+.todo-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-list > *:hover {
+    cursor: pointer;
+}
+
 #submit {
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 10px auto;
 }
